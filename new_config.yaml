@@ -1,0 +1,30 @@
+# config
+
+# interval in minutes
+interval: 1
+
+# BBDC Login
+login:
+  username: ""
+  password: ""
+
+# preferred month and session E.g. 202306 [3, 4, 5, 6, 7]
+pref: 
+  month: ""
+  sessions: []
+
+# manually solve captchas?
+captcha:
+  login: True
+  booking: True
+
+enable_booking: True
+
+telegram:
+  enabled: True
+  token: ""
+  chat_id: ""
+
+discord:
+  enabled: True
+  webhook:  ""
